@@ -11,5 +11,5 @@ from django.http import JsonResponse
 def property_list(request):
     properties = Property.objects.all()
 
-    return JsonResponse( {"data": property})
+    return JsonResponse({"data": property})
 
